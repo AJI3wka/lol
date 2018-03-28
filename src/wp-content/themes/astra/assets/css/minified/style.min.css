@@ -5834,3 +5834,9 @@ p.zajavka{
     display: inline-block;
      }
 }
+@media screen and (max-width: 360px){
+    .contacts{
+        margin:0 auto;
+    }
+
+}
