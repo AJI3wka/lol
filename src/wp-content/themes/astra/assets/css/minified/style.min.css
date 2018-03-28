@@ -5833,10 +5833,17 @@ p.zajavka{
     margin-left: 35px;
     display: inline-block;
      }
-}
 @media screen and (max-width: 360px){
     .contacts{
         margin:0 auto;
     }
+    p.zajavka{
+        display: block;
+        font-size: 15px;
+    }
+    .ast-mobile-menu-buttons{
+        right: 15px;
+    }
 
+        
 }
