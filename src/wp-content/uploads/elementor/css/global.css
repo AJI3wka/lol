@@ -520,10 +520,34 @@
     color: #54595f;
 }
 .slide-control{
-	    width: 30px;
-	    height: 30px;
-	    position: relative;
-	    top: 22%;
-	    left: 6%;
+	    width: 40px;
+	    height: 40px;
+	    margin-top:-20px;
+	    position: absolute;
+	    top: 50%;
 	    background-image: url(../images/arroleft.png);
+	    background-repeat:no-repeat;
+	    background-position: center;
+	    filter:invert(1);
+	    z-index:20;
+	    font-size:0;
+}
+.slide-control>a{
+    position:absolute;
+    display:block;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    font-size:0;
+}
+.slide-control.left{
+	    left: 6%;
+
+}
+.slide-control.right{
+
+	    right: 6%;
+	    transform:rotate(180deg);
 }
