@@ -5767,6 +5767,7 @@ button.free {
         margin-left: 0px;
 }
 
+
 @media screen and (max-width: 1221px) {
     .ast-site-identity {
         position: relative;
@@ -5785,9 +5786,8 @@ button.free {
     line-height: 15px;
     margin-bottom: 16px;
     }
-    .main-navigation ul{
+    .header-main-layout-1 .main-header-bar-navigation{
         display: none;
-
     }
     span{
         margin-left: 15px;
