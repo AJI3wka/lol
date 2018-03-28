@@ -3762,6 +3762,14 @@ button.swiper-pagination-bullet {
     body:not(.elementor-editor-active) .elementor-hidden-phone {
         display: none
     }
+    .menu-item-541{
+        display:none!important;
+
+    }
+    .menu-item-157{
+        display:none!important;
+        
+    }
 }
 
 @media (min-width:768px) and (max-width:1024px) {

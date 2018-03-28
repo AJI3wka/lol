@@ -106,4 +106,9 @@ jQuery(document).ready(function() {
         
       }
     });
+
+  //$('.main-navigation ul li').unbind('click');
+  // jQuery('.main-navigation ul li').click(function(e){
+  // 	alert('WTF');
+  // 		e.preventDefault();jQuery("html, body").animate({ scrollTop: jQuery(jQuery(this).attr('href')).offset().top}, 500);});
 });
