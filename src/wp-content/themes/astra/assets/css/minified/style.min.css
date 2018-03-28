@@ -2607,10 +2607,10 @@ body {
 }
 
 .ast-header-break-point .main-navigation ul li a {
-    padding: 0 20px;
+    padding: 20px 20px;
     display: inline-block;
     width: 100%;
-    border-bottom: 1px solid #dadada
+    border-bottom: 1px solid #dadada;
 }
 
 .ast-header-break-point .main-navigation ul.children li a,
